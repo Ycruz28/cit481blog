@@ -1,0 +1,16 @@
+---
+layout: "post"
+title: "blog0"
+---
+ Well this week i did not really do anything to technical. The biggest thing i did this week was the lab. I created a
+lamp stack with the instructions given. I ran it on a Docker terminal, i havent really used docker so it was a fun 
+learning experience. We first had to make a container to do this i put in the command docker run -it -p 8080 --name 
+cit 481 ubuntu:latest bash. I also learned about that cool tip in lab about running commands together with &&. So 
+then we installed apache with apt-get install apache2 started the service and checked if it was running on or local 
+host im using windows so i used the ip address and it worked fine. Then it was on to mysql with apt-get install -y 
+mysql-client and php with apt-get install -y php libapache2-mod-php php-mysql php7.2-cli php7.2-curl php7.2-gd php7.2-
+mbstring php7.2-mysql php7.2-xml, then checking it was running fine on local host but adding /info.php at the end. 
+Then we installed composer opened the local host again and now it displayed a csun page saying web service. That lab 
+was pretty fun i am planning on trying my hand at the optional portion this weekend. Hopefully next week i have 
+something related to my project, this week was kinda slow for us. 
+
